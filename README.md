@@ -205,11 +205,11 @@ ORDER BY issue_count DESC;
 
 Скачать проект
 
-git clone https://github.com/USERNAME/library-management-system
+git clone https://github.com/unclearblast/final-exam-bmstu-part1
 
 Перейти в папку проекта
 
-cd library-management-system
+cd final-exam-bmstu-part1
 
 Скомпилировать проект
 
