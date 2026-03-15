@@ -1,0 +1,12 @@
+В терминале проекта:
+sqlite3 library.db
+
+.read sql/database.sql
+.read sql/demo_data.sql
+
+SELECT * FROM books;
+SELECT * FROM readers;
+SELECT * FROM loans;
+
+Ремарка: Индексы используются для ускорения поиска по таблицам.
+Например, индекс idx_books_title ускоряет поиск книги по названию, а индексы loans_book и loans_reader ускоряют JOIN-операции между таблицами.
