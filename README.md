@@ -23,6 +23,41 @@
 
 Проект построен по принципу **разделения ответственности (Separation of Concerns)**.
 
+
+library-management-system
+│
+├── src/main/java
+│   ├── db
+│   │   └── DatabaseConnection.java
+│   │
+│   ├── model
+│   │   ├── Book.java
+│   │   ├── Reader.java
+│   │   └── Loan.java
+│   │
+│   ├── dao
+│   │   ├── BookDAO.java
+│   │   ├── ReaderDAO.java
+│   │   └── LoanDAO.java
+│   │
+│   ├── menu
+│   │   └── Menu.java
+│   │
+│   └── Main.java
+│
+├── sql
+│   ├── database.sql
+│   └── demo_data.sql
+│
+├── docs
+│   └── ER_diagram.png
+│
+├── library.db
+├── pom.xml
+└── README.md
+
+
+
 Описание модулей:
 
 **model**  
