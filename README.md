@@ -23,30 +23,6 @@
 
 Проект построен по принципу **разделения ответственности (Separation of Concerns)**.
 
-Структура:
-
-<!-- TREE_START -->
-src/main/java
-│
-├── db
-│ └── DatabaseConnection.java
-│
-├── model
-│ ├── Book.java
-│ ├── Reader.java
-│ └── Loan.java
-│
-├── dao
-│ ├── BookDAO.java
-│ ├── ReaderDAO.java
-│ └── LoanDAO.java
-│
-├── menu
-│ └── Menu.java
-│
-└── Main.java
-<!-- TREE_END -->
-
 Описание модулей:
 
 **model**  
