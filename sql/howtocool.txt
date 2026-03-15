@@ -1,4 +1,5 @@
 В терминале проекта:
+
 sqlite3 library.db
 
 .read sql/database.sql
