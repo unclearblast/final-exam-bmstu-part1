@@ -25,7 +25,7 @@
 
 Структура:
 
-
+<!-- TREE_START -->
 src/main/java
 │
 ├── db
@@ -45,7 +45,7 @@ src/main/java
 │ └── Menu.java
 │
 └── Main.java
-
+<!-- TREE_END -->
 
 Описание модулей:
 
