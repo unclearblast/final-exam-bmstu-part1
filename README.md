@@ -196,7 +196,12 @@ FROM loans
 JOIN books ON books.id = loans.book_id
 GROUP BY books.title
 ORDER BY issue_count DESC;
-Запуск проекта
+
+```
+
+
+
+# Запуск проекта
 
 Скачать проект
 
@@ -229,10 +234,3 @@ LIBRARY MENU
 8 Issued books
 9 Popular books
 0 Exit
-
-
-работы с JDBC
-
-проектирования реляционных баз данных
-
-разработки консольных Java-приложений
