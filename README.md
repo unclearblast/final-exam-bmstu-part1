@@ -1,0 +1,2 @@
+# final-exam-bmstu-part1
+BMSTU X SPUTNIK 1440 TRAINING PROGRAM
